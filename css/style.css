@@ -40,8 +40,14 @@ color: #9b4663;
 text-decoration: underline;
 }
 .hero {
-padding: 80px 20px;
+padding: 100px 20px;
 text-align: center;
+color: #ffffff;
+background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../images/pink-roses.jpg");
+background-size: cover;
+background-position: center;
 }
 .button {
 display: inline-block;
@@ -81,6 +87,14 @@ gap: 24px;
 @media (max-width: 800px) {
     .bouquet-list {
         grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
     }
 }
 .bouquet-card img {

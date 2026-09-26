@@ -84,6 +84,11 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 24px;
 }
+nav a[aria-current="page"] {
+color: #9b4663;
+text-decoration: underline;
+font-weight: bold;
+}
 @media (max-width: 800px) {
     .bouquet-list {
         grid-template-columns: 1fr;

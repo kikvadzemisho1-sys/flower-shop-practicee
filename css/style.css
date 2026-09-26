@@ -29,6 +29,9 @@ font-size: 28px;
 font-weight: bold;
 color: #294936;
 text-decoration: none;
+display: flex;
+align-items: center;
+gap: 12px;
 }
 nav a {
 color: #294936;
@@ -138,4 +141,9 @@ height: auto;
 aspect-ratio: 4 / 3;
 object-fit: cover;
 object-position: center;
+}
+.logo img {
+width: 64px;
+height: 64px;
+object-fit: contain;
 }
